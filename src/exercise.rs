@@ -257,6 +257,8 @@ impl Display for Exercise {
 #[inline]
 fn clean() {
     let _ignored = remove_file(&temp_file());
+    let a = [1, 2, 3, 4];
+    a.iter()
 }
 
 #[cfg(test)]
